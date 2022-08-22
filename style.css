@@ -1,0 +1,61 @@
+
+header{
+  height: 70vh;
+  position: relative;
+}
+header .logo{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.text-content h1{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-family:'Times New Roman', sans-serif;
+}
+.text-content h4{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  color: #fff;
+}
+
+.main-section{
+  background: #0f0b0b;
+}
+
+.card-body{
+  background: #000000;
+  border: none;
+  outline: none;
+}
+#myList{
+  height: 130px;
+}
+.player-price input{
+  width: 100px;
+  height: 30px;
+  background: #110c0c;
+  border: 1px solid #fff;
+}
+.player-price input, .managing-cost input, .coach-cost input{
+  width: 100px;
+  height: 30px;
+  background: #110c0c;
+  border: 1px solid #fff;
+}
+
+.managing-cost input{
+  margin-left: 70px;
+}
+.coach-cost input{
+  margin-left: 90px;
+}
+
+.total-cost{
+  margin-left: 130px;
+}
+.card-text{
+  color: #777;
+}
